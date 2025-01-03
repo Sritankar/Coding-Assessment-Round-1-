@@ -60,4 +60,9 @@ The script retrieves a maximum of 10 restaurants. You can modify the script to s
 Error Handling
 If there is an issue with fetching data (e.g., due to a network error or bad request), the script will print an error message, and no data will be saved.
 
+Difficuilty faced while writing the code
+
+While working on the restaurant data scraping, I faced a few challenges. Google’s search results are dynamic, and many details like ratings, reviews, and addresses are rendered via JavaScript, which our current scraping method can’t access. Additionally, some restaurant information is incomplete, and we may run into issues with rate-limiting or blocking from Google due to frequent requests. The HTML structure of the page also changes often, making it difficult to consistently extract the required data. I recommend using the Google Places API for more reliable and structured data.
+
+
 
