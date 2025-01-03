@@ -9,8 +9,7 @@ requests library
 beautifulsoup4 library
 You can install the required libraries by running the following command:
 
-bash
-Copy code
+
 pip install requests beautifulsoup4
 Script Overview
 This script:
@@ -26,8 +25,7 @@ Run the script:
 
 Open a terminal or command prompt, navigate to the directory where the script is located, and run:
 
-bash
-Copy code
+
 python 1.py
 Enter the city name when prompted:
 
@@ -40,8 +38,7 @@ After the script finishes scraping, it will create a JSON file with the name res
 Example
 For example, when running the script for the city Bangalore, you will get a JSON file named restaurants_bangalore.json with the following structure:
 
-json
-Copy code
+
 {
     "Restaurant 1": {
         "name": "Restaurant 1",
