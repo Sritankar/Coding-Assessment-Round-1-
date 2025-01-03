@@ -60,5 +60,4 @@ The script retrieves a maximum of 10 restaurants. You can modify the script to s
 Error Handling
 If there is an issue with fetching data (e.g., due to a network error or bad request), the script will print an error message, and no data will be saved.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
